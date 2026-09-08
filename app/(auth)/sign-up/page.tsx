@@ -1,3 +1,4 @@
+import SignUpForm from "@/authFeature/nextjs/components/SignUpForm";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 export default function SignUp() {
@@ -8,6 +9,7 @@ export default function SignUp() {
           <CardTitle>Sign Up</CardTitle>
         </CardHeader>
         <CardContent>
+          <SignUpForm />
         </CardContent>
       </Card>
     </div>
